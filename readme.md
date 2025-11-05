@@ -43,20 +43,20 @@ A **real-time multi-user drawing application** built with **Vanilla JavaScript**
 
 ## 🗂️ Project Structure
 
-collaborative-canvas/
-├── client/
-│ ├── index.html # UI layout
-│ ├── style.css # App styling
-│ ├── canvas.js # Canvas drawing & rendering logic
-│ ├── websocket.js # WebSocket client connection
-│ └── main.js # App initialization & UI controls
-├── server/
-│ ├── server.js # Express + Socket.io server
-│ ├── rooms.js # Room/user management
-│ └── drawing-state.js # Global drawing state (history, undo/redo)
-├── package.json
-├── README.md
-└── ARCHITECTURE.md
+-collaborative-canvas/
+- client/
+  - index.html # UI layout
+  -  style.css # App styling
+  -   canvas.js # Canvas drawing & rendering logic
+  -    ebsocket.js # WebSocket client connection
+  -  main.js # App initialization & UI controls
+-  server/
+  -  server.js # Express + Socket.io server
+  -   rooms.js # Room/user management
+  -  drawing-state.js # Global drawing state (history, undo/redo)
+-  package.json
+-   README.md
+-  ARCHITECTURE.md
 ---
 
 ## ⚙️ Setup Instructions
@@ -200,15 +200,11 @@ https://your-app.onrender.com
 
 | Phase | Duration |
 |--------|-----------|
-| Canvas drawing + tools | 1 day |
-| WebSocket backend + sync | 1 day |
-| Undo/Redo + Clear | 1 day |
+| Canvas drawing + tools | 0.5 day |
+| WebSocket backend + sync | 0.5 day |
+| Undo/Redo + Clear | 0.5 day |
 | Testing, UI polish, docs | 0.5 day |
-| **Total** | **≈ 3.5 days** |
+| **Total** | **≈ 2 days** |
 
 ---
 
-## 🧾 License
-
-MIT License © 2025 Collaborative Canvas Project  
-Author: [Your Name]
