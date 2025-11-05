@@ -42,21 +42,22 @@ A **real-time multi-user drawing application** built with **Vanilla JavaScript**
 ---
 
 ## 🗂️ Project Structure
-
--collaborative-canvas/
-- client/
-  - index.html # UI layout
-  -  style.css # App styling
-  -   canvas.js # Canvas drawing & rendering logic
-  -    ebsocket.js # WebSocket client connection
-  -  main.js # App initialization & UI controls
--  server/
-  -  server.js # Express + Socket.io server
-  -   rooms.js # Room/user management
-  -  drawing-state.js # Global drawing state (history, undo/redo)
--  package.json
--   README.md
--  ARCHITECTURE.md
+```
+collaborative-canvas/
+├── client/
+│ ├── index.html # UI layout
+│ ├── style.css # App styling
+│ ├── canvas.js # Canvas drawing & rendering logic
+│ ├── websocket.js # WebSocket client connection
+│ └── main.js # App initialization & UI controls
+├── server/
+│ ├── server.js # Express + Socket.io server
+│ ├── rooms.js # Room/user management
+│ └── drawing-state.js # Global drawing state (history, undo/redo)
+├── package.json
+├── README.md
+└── ARCHITECTURE.md
+```
 ---
 
 ## ⚙️ Setup Instructions
@@ -207,4 +208,5 @@ https://your-app.onrender.com
 | **Total** | **≈ 2 days** |
 
 ---
+
 
